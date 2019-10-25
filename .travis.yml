@@ -13,7 +13,7 @@ before_install:
 
 install:
   - conda env create -f environment.yml
-  - source activate aem-environment
+  - source activate uda-plotting-example
   - export MPLBACKEND="agg"
   - pip install -r requirements_dev.txt
 
