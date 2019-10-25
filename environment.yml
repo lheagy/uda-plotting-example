@@ -1,0 +1,10 @@
+name: uda-plotting-example
+
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - scipy
+  - matplotlib
+  - deepdish
